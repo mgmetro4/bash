@@ -1,2 +1,4 @@
 # bash
-Learning Bash
+Resource for general Linux commands and Bash Shell scripting
+
+
