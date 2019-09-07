@@ -4,6 +4,7 @@ Resource for general Linux commands and Bash Shell scripting
 # Contents
 [Command Line](#command-line)<br>
 [Scripting](#scripting)<br>
+[Vim](#vim)<br>
 
 <a id="command-line"></a>
 ## Command Line Tricks
@@ -38,6 +39,24 @@ rm -rf *
 See **script-OpenMRS_RefApp-2.8.0.sh**
 
 Script to download and compile OpenMRS Reference Application 2.8.0. Clones the github, checkouts the release version being used, compiles the modules via maven/npm, and moves the files into the proper tomcat folders for web application launch.
+
+## Vim
+
+### Contents
+[Select All](#vim_select-all)<br>
+
+<br><br>
+
+<a id="vim_select-all"></a>
+### Select All (CTRL-A)
+
+```Vim
+ggVG
+``` 
+
+- gg moves to first line
+- V starts visual mode
+- G jumps to last line thereby selecting from first to last line 
 
 
 
